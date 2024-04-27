@@ -17,7 +17,7 @@ client.on('messageCreate', async(message) => {
     message.markSeen();
 
     if(message.content.toLowerCase().includes('hi') || message.content.toLowerCase().includes('hello')){ 
-        return message.chat.sendMessage('VENOM IS MY DEVELOPER CHECK OUT HIS CHANNEL :- https://youtube.com/c/VenomExE');
+        return message.chat.sendMessage('Hey!! I am a chatGPT bot. You can ask me any question, I will try to answer it.\n Please Follow my devloper on Insta @foileds');
     } else
   var reply = await openai.createCompletion({
    model: "text-davinci-003",
